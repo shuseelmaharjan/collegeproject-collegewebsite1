@@ -45,18 +45,31 @@
     </header>
     <!--start of carousel images-->
     <main>
-        <section class="slider-box">
-            <div id="slider" class="banner">
-                <img src="images/banner-1.jpg" alt="banner1">
-                <img src="images/banner-2.jpg" alt="banner2">
-                <img src="images/banner-3.jpg" alt="banner3">
+        <div class="slideshow-container">
+            <div class="mySlides-fade">
+                <div class="numbertext">
+                    <img src="images/banner-1.jpg" alt="banner1">
+                </div>
             </div>
-            <div class="indicator">
-                <span id="btn1" class="active"></span>
-                <span id="btn2"></span>
-                <span id="btn3"></span>
+            <div class="mySlides-fade">
+                <div class="numbertext">
+                    <img src="images/banner-2.jpg" alt="banner2">
+                </div>
             </div>
-        </section>
+            <div class="mySlides-fade">
+                <div class="numbertext">
+                    <img src="images/banner-3.jpg" alt="banner3">
+                </div>
+            </div>
+            <a class="prev" onclick="pushSlider(-1)">&#10094;</a>
+            <a class="prev" onclick="pushSlider(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlider(1)"></span>
+        <span class="dot" onclick="currentSlider(2)"></span>
+        <span class="dot" onclick="currentSlider(3)"></span>
+    </div>
     </main>
     <!--js-->
     <script src="assets/main.js"></script>

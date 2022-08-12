@@ -89,32 +89,3 @@
 .sub-header .social-icons a i:hover{
     color: rgba(255, 238, 52, 0.922);
 }
-.slider-box{
-    width: 100%;
-    height: 90vh;
-    position: inherit;
-   
-}
-#slider{
-    width: 100%;
-    display: inline-flex;
-    transition: 0.7s;
-    top: 120px;
-}
-#slider img{
-    width: 100%;
-}
-.indicator{
-    position: absolute;
-    left: 50%;
-    bottom: 30px;
-    transform: translateX(-50%);
-}
-.indicator span{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-}
